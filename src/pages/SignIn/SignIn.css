@@ -1,0 +1,134 @@
+.signin-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.signin-left {
+  width: 40%;
+  background-color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-logo {
+  color: var(--white);
+  font-size: 72px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.signin-right {
+  width: 60%;
+  background-color: var(--bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-content {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.signin-header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.signin-header p {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.btn-auth {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: var(--white);
+  color: var(--muted);
+  border-radius: var(--radius-input);
+  padding: 10px;
+  font-size: 14px;
+}
+
+.btn-auth.google {
+  color: var(--text);
+}
+
+.signin-card {
+  background-color: var(--white);
+  padding: 30px;
+  border-radius: var(--radius-card);
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--input-bg);
+  border: none;
+  border-radius: var(--radius-input);
+  font-size: 16px;
+}
+
+.forgot-password {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--black);
+  color: var(--white);
+  border-radius: var(--radius-input);
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.register-link {
+  text-align: center;
+  color: var(--muted);
+}
+
+@media (max-width: 768px) {
+  .signin-container {
+    flex-direction: column;
+  }
+  .signin-left {
+    width: 100%;
+    height: 100px;
+  }
+  .signin-logo {
+    font-size: 36px;
+  }
+  .signin-right {
+    width: 100%;
+    height: calc(100vh - 100px);
+    align-items: flex-start;
+    padding-top: 50px;
+  }
+}

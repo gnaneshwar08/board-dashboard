@@ -1,0 +1,33 @@
+{
+  "stats": {
+    "revenues": 2129430,
+    "transactions": 1520,
+    "likes": 9721,
+    "users": 892
+  },
+  "activities": [
+    { "week": "Week 1", "guest": 300, "user": 150 },
+    { "week": "Week 2", "guest": 200, "user": 400 },
+    { "week": "Week 3", "guest": 350, "user": 450 },
+    { "week": "Week 4", "guest": 250, "user": 200 }
+  ],
+  "topProducts": [
+    { "name": "Basic Tees", "value": 55 },
+    { "name": "Custom Short Pants", "value": 31 },
+    { "name": "Super Hoodies", "value": 14 }
+  ],
+  "schedule": [
+    {
+      "title": "Meeting with suppliers from Kuta Bali",
+      "time": "14.00-15.00",
+      "location": "at Sunset Road, Kuta, Bali",
+      "color": "green"
+    },
+    {
+      "title": "Check operation at Giga Factory 1",
+      "time": "18.00-20.00",
+      "location": "at Central Jakarta",
+      "color": "purple"
+    }
+  ]
+}

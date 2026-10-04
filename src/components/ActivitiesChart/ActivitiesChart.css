@@ -1,0 +1,43 @@
+.activities-card {
+  background-color: var(--white);
+  border-radius: var(--radius-card);
+  padding: 30px;
+}
+
+.activities-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.activities-title h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.activities-title select {
+  border: none;
+  color: var(--muted);
+  outline: none;
+  background: transparent;
+  margin-top: 5px;
+}
+
+.activities-legend {
+  display: flex;
+  gap: 20px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.legend-color {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
